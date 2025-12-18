@@ -1,4 +1,4 @@
-# 🎨 Lumos - Color Manipulation Tool
+# 🎨 Color Lighten/Darken Tool
 
 **Lumos** is a web-based utility for developers and designers to generate tints (lighten) and shades (darken) of any Hex color code. It is built with **Vanilla JavaScript** and features a custom-built engine for color channel manipulation.
 
