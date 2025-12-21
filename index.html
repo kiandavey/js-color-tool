@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Color Tool</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@800&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">🎨 Color Tool</h1>
+            <label for="hex">Hex Color</label>
+            <input type="text" name="hex" id="hexInput" placeholder="#000000" value="#1E293B"/>
+
+            <div class="toggle">
+                <p id="lightenText" class="toggle-text">Lighten</p>
+                <div id="toggleBtn" class="toggle-btn">
+                    <div class="inner-circle"></div>
+                </div>
+                <p id="darkenText" class="toggle-text unselected">Darken</p>
+            </div>
+
+            <label for="slider" id="sliderText">0%</label>
+            <input type="range" class="slider" id="slider" name="slider" min="0" max="100" value="0">
+
+            <p class="color-label">Input Color</p>
+            <div id="inputColor" class="box"></div>
+
+            <p id="alteredColorText" class="color-label">Altered Color</p>
+            <div id="alteredColor" class="box"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
